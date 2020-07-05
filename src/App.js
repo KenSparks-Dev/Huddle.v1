@@ -4,7 +4,7 @@ import MainImage from './components/MainImage';
 import Text from './components/Text';
 import 'font-awesome/css/font-awesome.css';
 import Footer from './components/Footer';
-// import Random from './components/Random'; remove comment syntax to reveal props practice
+
 function App() {
 
   const links = [
@@ -26,25 +26,7 @@ function App() {
     }
   ]
 
-  // const random = [
-  // 	{
-  // 		name: "Ken",
-  // 		food:"cheese burger",
-  // 		color: "Black",
-  // 		song: "Another Me by Andy Mineo",
-  // 		movie: "Lion King",
-  // 		writer: "Rick Remender"
-  // 	},
-  // 	{
-  // 			name:"Mel",
-  // 			food: "Sushi",
-  // 			color: "Green",
-  // 			song: "Any song by Masego",
-  // 			movie: "Hookers in Revolt",
-  // 			writer: "Lemony Snicket"
-  // 	}
-  // ] remove notation to see props practice 
-
+ 
   return (
     <div className="App">
       <div className="container d-flex justify-content-center">
@@ -53,9 +35,8 @@ function App() {
             <MainImage headerIcon={"fa fa-comments"}
               header="Huddle Dark" />
           </div>
-          {/* < Random random = {random}/> remove notation to see props practice */}
           <div className="col-lg-5 col-xl-5 p-xl-5 text-center text-lg-left">
-            < Text textTitle={'Build The Community Your Fans Will Hate'} textPara={'Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion'} button='Register' />
+            < Text title={'Build The Community Your Fans Will Hate'} textPara={'Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion'} buttonCopy='Register' />
           </div>
         </div>
       </div>
