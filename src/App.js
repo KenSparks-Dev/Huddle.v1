@@ -25,7 +25,6 @@ function App() {
       icon: 'fa fa-github fa-lg'
     }
   ]
-
  
   return (
     <div className="App">
@@ -36,7 +35,7 @@ function App() {
               header="Huddle Dark" />
           </div>
           <div className="col-lg-5 col-xl-5 p-xl-5 text-center text-lg-left">
-            < Text title={'Build The Community Your Fans Will Hate'} textPara={'Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion'} buttonCopy='Register' />
+            <Text title={'Build The Community Your Fans Will Hate'} textPara={'Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion'} buttonCopy='Register' />
           </div>
         </div>
       </div>

@@ -1,8 +1,7 @@
 .App {
-	background-color: rgb(0,0,0);
+	background-color: #000;
 	font-family: 'Open Sans', sans-serif;
-	color: rgb(255,255,255)
-	;
+	color: #ffffff;
 	background-image: url("./images/bg-mobile.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44,7 +43,6 @@ img {
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-
 @media (min-width: 1200px) {
 	.row {
 		width: 100%;
