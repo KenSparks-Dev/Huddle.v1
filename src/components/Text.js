@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/text.css';
 
-function Text({title, textPara, button}){
+function Text({title, textPara, buttonCopy}){
 	return (
 		<div className="text">
 			<h4 className="fade-in-text">{title}</h4>
