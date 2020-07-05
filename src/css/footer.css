@@ -1,7 +1,7 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .social-icons i {
