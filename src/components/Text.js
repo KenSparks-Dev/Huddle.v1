@@ -15,4 +15,3 @@ function Text({title, textPara, buttonCopy}){
 
 export default Text;
 
-
