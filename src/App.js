@@ -39,7 +39,7 @@ function App() {
           </div>
         </div>
       </div>
-      <Footer links={links}/>
+      <Footer links={links} />
     </div>
   );
 }
